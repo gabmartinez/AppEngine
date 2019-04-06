@@ -1,0 +1,10 @@
+# This app.yaml is for deploying to instances of Cloud SQL running MySQL.
+# [START gae_cloudsql_mysql_env]
+runtime: php72
+
+env_variables:
+  SQL_USER: "amadis"
+  SQL_PASSWORD: "SbgDLVrV4UkTA7f4"
+  SQL_DSN: "mysql:dbname=amadis;unix_socket=/cloudsql/ricobot07:us-central1:amadis-test"
+# [END gae_cloudsql_mysql_env]
+
